@@ -33,7 +33,13 @@ module.exports = {
       'warn',
       { allowConstantExport: true },
     ],
-    'react/prop-types': 'off', // Optional, if you're using TypeScript for type checking
+    'react/prop-types': 'off',
+    'prettier/prettier': [
+      'warn',
+      {
+        endOfLine: 'auto',
+      },
+    ],
   },
   settings: {
     react: {
